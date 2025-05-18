@@ -17,6 +17,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { Toaster } from "sonner";
 import ProtectedRoute from "./components/ProtectedRoute";
+import CanvasCursor from "./components/CanvasCursor";
 
 const App = () => {
   useEffect(() => {
@@ -35,6 +36,7 @@ const App = () => {
         <Navber />
         <SearchBar />
         <Scroller />
+        <CanvasCursor/>
         <Toaster position="top-right" />
         <Routes>
           <Route
